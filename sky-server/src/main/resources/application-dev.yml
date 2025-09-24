@@ -7,7 +7,7 @@ sky:
     username: root
     password: 123456chy
   alioss:
-    endpoint: oss-cn-beijing.aliyuncs.com
-    access-key-id: LTAI5tGjd6mXgWvbS2TKFBub
-    access-key-secret: a2WzxiDVRWikwkJ99vSBljPHXMsMHI
-    bucket-name: skytake-chy
+    endpoint: ${sky.alioss.endpoint}
+    access-key-id: ${sky.alioss.access-key-id}
+    access-key-secret: ${sky.alioss.access-key-secret}
+    bucket-name: ${sky.alioss.bucket-name}
