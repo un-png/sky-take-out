@@ -12,6 +12,20 @@ spring:
       url: jdbc:mysql://${sky.datasource.host}:${sky.datasource.port}/${sky.datasource.database}?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false&allowPublicKeyRetrieval=true
       username: ${sky.datasource.username}
       password: ${sky.datasource.password}
+      # 设置连接池检测间隔
+      time-between-eviction-runs-millis: 60000
+      # 设置连接最小空闲时间
+      min-evictable-idle-time-millis: 300000
+      # 设置连接最大存活时间
+      max-evictable-idle-time-millis: 400000
+      # 验证查询语句
+      validation-query: SELECT 1
+      # 空闲时验证连接有效性
+      test-while-idle: true
+      # 获取连接时验证
+      test-on-borrow: false
+      # 归还连接时验证
+      test-on-return: false
 
 mybatis:
   #mapper配置文件
