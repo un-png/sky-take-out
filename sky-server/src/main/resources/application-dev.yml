@@ -11,3 +11,7 @@ sky:
     access-key-id: LTAI5tGjd6mXgWvbS2TKFBub
     access-key-secret: a2WzxiDVRWikwkJ99vSBljPHXMsMHI
     bucket-name: skytake-chy
+  redis:
+      host: localhost
+      port: 6379
+      database: 1

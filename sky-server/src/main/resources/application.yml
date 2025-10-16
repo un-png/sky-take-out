@@ -26,6 +26,10 @@ spring:
       test-on-borrow: false
       # 归还连接时验证
       test-on-return: false
+  redis:
+    host: ${sky.redis.host}
+    port: ${sky.redis.port}
+    database: ${sky.redis.database}
 
 mybatis:
   #mapper配置文件
