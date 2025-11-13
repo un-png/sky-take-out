@@ -25,3 +25,7 @@ sky:
     #weChatPayCertFilePat: C:\software\wechatpay_166D96F876F45C7D07CE98952A96EC980368ACFC.pem
     notifyUrl: https://79b938f9.r33.cpolar.top/notify/paySuccess
     refundNotifyUrl: https://79b938f9.r33.cpolar.top/notify/refundSuccess
+  shop:
+    address: 重庆市巴南区南泉街道白鹤村16号重庆工程学院(南泉校区)
+  baidu:
+    ak: rE4twI6f30osWy4PSfTDLs5gmB2a7iF7
